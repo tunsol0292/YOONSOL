@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(30, 30, 30);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+body > div {
+    font-family: 고딕체;
+}
+
+body > input {
+    font-family: 고딕체;
+}
+
+.login-box {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 25px;
+    width: 300px;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 15.5px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 10px;
+    box-sizing: border-box;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #2F2F2F;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-box .message {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}

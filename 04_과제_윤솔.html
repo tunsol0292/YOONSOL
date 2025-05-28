@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>Treasure 스케줄 관리</title>
+    <link rel="stylesheet" href="./00_과제Main.css" />
+    <script defer src="./Schedule.js"></script>
+</head>
+<body>
+    <header>
+        <a href="./00_과제_윤솔02.html">
+            <div id="logo1">
+                <img src="./img/YG_Entertainment_Logo.png" alt="YG_logo">
+            </div>
+        </a>
+    </header>
+
+    <nav>
+        <div id="address">
+            <div><a href="https://www.instagram.com/yg_treasure_official/">Instagram</a></div>
+            <div><a href="https://x.com/ygtreasuremaker">X</a></div>
+            <div><a href="https://www.tiktok.com/@yg_treasure_tiktok">TikTok</a></div>
+            <div><a href="https://www.youtube.com/@TREASURE">YouTube</a></div>
+        </div>
+        <div id="menu">
+            <div class="menu-item"><a href="./04_과제_윤솔.html">Schedule</a></div>
+            <div class="menu-item"><a href="./member.html">Member</a></div>
+        </div>
+    </nav>
+
+    <main>
+        <h3>다가오는 스케줄을 입력해주세요.</h3>
+
+        <input type="text" id="schedule-name" placeholder="스케줄 이름을 입력하세요." class="schedule_insert">
+        <input type="date" id="schedule-date">
+
+        <button onclick="insertSchedule();">스케줄 등록</button>
+        <button onclick="saveSchedule();">스케줄 목록에 저장</button>
+        <button onclick="showSchedule();">스케줄 조회</button>
+
+        <div id="schedule-list">
+            <h3> 등록된 스케줄 목록</h3>
+        </div>
+    </main>
+
+    <footer>
+        <div id="treasure_img"></div>
+    </footer>
+</body>
+</html>
