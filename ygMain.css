@@ -1,0 +1,156 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Pretendard', Arial, sans-serif;
+    font-weight: 700;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#logo1 img {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #2a2a2a;
+}
+
+#address {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+
+#address a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+#address a:hover {
+    color: #fff;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding: 10px 0;
+}
+
+.menu-item {
+    margin: 0 40px;
+}
+
+.menu-item a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+main {
+    background-color: #E0DFDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+}
+
+#treasure_video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+#treasure_video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#ment {
+    font-family: 'Song Myung', serif;
+    background-color: #E0DFDD;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    padding: 15px;
+    line-height: 1.8;
+}
+
+#ment a {
+    color: #c09000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#ment a:hover {
+    color: #000;
+}
+
+#trackList {
+    text-align: center;
+}
+
+#trackList img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+#treasure_img {
+    width: 100%;
+    height: 3000px;
+    background-image: url('./img/treasure.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2a2a2a;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1000;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#top:hover {
+    background-color: #000;
+}
+
+footer {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#logo2 img {
+    width: 100px;
+}

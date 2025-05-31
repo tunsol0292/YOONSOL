@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>Treasure Schedule Management</title>
+    <link rel="stylesheet" href="./schedule.css"/>
+    <script defer src="./schedule.js"></script>
+</head>
+<body>
+    <header>
+        <a href="./YGmain.html">
+            <div id="logo1">
+                <img src="./img/YG_Entertainment_Logo.png" alt="YG Entertainment Logo">
+            </div>
+        </a>
+    </header>
+    <nav>
+        <div id="address">
+            <div><a href="https://www.instagram.com/yg_treasure_official/">Instagram</a></div>
+            <div><a href="https://x.com/ygtreasuremaker">X</a></div>
+            <div><a href="https://www.tiktok.com/@yg_treasure_tiktok">TikTok</a></div>
+            <div><a href="https://www.youtube.com/@TREASURE">YouTube</a></div>
+            <div><a href="https://weverse.io/treasure/feed?hl=ko">WEVERSE</a></div>
+        </div>
+        <div id="menu">
+            <div class="menu-item"><a href="./schedule.html">Schedule</a></div>
+            <div class="menu-item"><a href="./member.html">Member</a></div>
+        </div>
+    </nav>
+    <main>
+        <h3>Enter your upcoming schedule.</h3>
+
+        <input type="text" id="schedule-name" placeholder="Enter schedule name" class="schedule_insert" />
+        <input type="date" id="schedule-date" class="schedule_insert" />
+
+        <button id="btn01" onclick="insertSchedule();">Add Schedule</button>
+        <button id="btn02" onclick="saveSchedule();">Save to List</button>
+
+        <div id="scheduleTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Schedule Name</th>
+                        <th>Schedule Date</th>
+                    </tr>
+                </thead>
+                <tbody id="schedule-tbody">
+                    <tr>
+                        <td colspan="2">No schedules registered.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <aside>
+        <a href="./schedule.html">
+            <div id="top">TOP</div>
+        </a>
+    </aside>
+
+    <footer>
+        <div id="logo2">
+            <img src="./img/f_logo.svg" alt="YG Logo" />
+        </div>
+    </footer>
+</body>
+</html>
